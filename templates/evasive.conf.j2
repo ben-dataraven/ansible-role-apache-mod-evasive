@@ -7,12 +7,12 @@
   DOSBlockingPeriod   {{apache_mod_evasive_block_period}}
 
 {% if apache_mod_evasive_email is defined %}
-  DOSEmailNotify      "{{ apache_mod_evasive_dos_email }}"
+  DOSEmailNotify      "{{ apache_mod_evasive_email }}"
 {% endif%}
 {% if apache_mod_evasive_cmd is defined %}
-  DOSSystemCommand    "{{ apache_mod_evasive_dos_cmd }}"
+  DOSSystemCommand    "{{ apache_mod_evasive_cmd }}"
 {% endif%}
 {% if apache_mod_evasive_logdir is defined %}
-  DOSLogDir           "{{ apache_mod_evasive_dos_logdir }}"
+  DOSLogDir           "{{ apache_mod_evasive_logdir }}"
 {% endif%}
 </IfModule>
