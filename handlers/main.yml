@@ -1,0 +1,7 @@
+---
+# handlers file for apache-mod-evasive
+
+- name: Restart Apache2
+  ansible.builtin.service:
+    name: apache2
+    state: restarted

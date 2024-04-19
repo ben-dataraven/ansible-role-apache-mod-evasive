@@ -1,0 +1,13 @@
+---
+# defaults file for apache-mod-evasive
+
+apache_mod_evasive_hash_table_size: 3097
+apache_mod_evasive_page_count: 2
+apache_mod_evasive_site_count: 50
+apache_mod_evasive_page_interval: 1
+apache_mod_evasive_site_interval: 1
+apache_mod_evasive_block_period: 50
+
+# apache_mod_evasive_email: you@yourdomain.com
+# apache_mod_evasive_cmd: "su - someuser -c '/sbin/... %s ...'"
+# apache_mod_evasive_logdir: "/var/log/mod_evasive"

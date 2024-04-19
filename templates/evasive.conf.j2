@@ -1,0 +1,18 @@
+<IfModule mod_evasive20.c>
+  DOSHashTableSize    {{apache_mod_evasive_hash_table_size}}
+  DOSPageCount        {{apache_mod_evasive_page_count}}
+  DOSSiteCount        {{apache_mod_evasive_site_count}}
+  DOSPageInterval     {{apache_mod_evasive_page_interval}}
+  DOSSiteInterval     {{apache_mod_evasive_site_interval}}
+  DOSBlockingPeriod   {{apache_mod_evasive_block_period}}
+
+{% if apache_mod_evasive_email is defined %}
+  DOSEmailNotify      "{{ apache_mod_evasive_dos_email }}"
+{% endif%}
+{% if apache_mod_evasive_cmd is defined %}
+  DOSSystemCommand    "{{ apache_mod_evasive_dos_cmd }}"
+{% endif%}
+{% if apache_mod_evasive_logdir is defined %}
+  DOSLogDir           "{{ apache_mod_evasive_dos_logdir }}"
+{% endif%}
+</IfModule>

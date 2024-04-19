@@ -1,0 +1,13 @@
+---
+# tasks file for apache-mod-evasive
+- name: Install packages
+  ansible.builtin.package:
+    name:
+      - libapache2-mod-evasive
+    state: present
+
+- name: Configure 
+  ansible.builtin.template:
+    src: evasive.conf.j2
+    dest: /etc/apache2/mods-available/evasive.conf
+  notify: Restart Apache2
