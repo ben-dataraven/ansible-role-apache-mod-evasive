@@ -1,0 +1,7 @@
+---
+# Variables for the Debian OS Family
+
+apache_mod_evasive_packages:
+  - libapache2-mod-evasive
+
+apache_mod_evasive_conf_filepath: /etc/apache2/mods-available/evasive.conf
