@@ -1,0 +1,7 @@
+---
+# Variables for the RedHat OS Family
+
+apache_mod_evasive_packages:
+  - mod_evasive
+
+apache_mod_evasive_conf_filepath: /etc/httpd/conf.d/mod_evasive.conf

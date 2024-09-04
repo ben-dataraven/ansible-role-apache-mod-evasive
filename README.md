@@ -1,7 +1,7 @@
 Ansible Role: Apache mod-evasive
 =========
 
-An Ansible Role that installs and configures apache mod-evasive on Debian/Ubuntu
+An Ansible Role that installs and configures apache mod-evasive
 
 Requirements
 ------------
