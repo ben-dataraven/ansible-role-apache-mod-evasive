@@ -1,6 +1,6 @@
 galaxy_info:
   role_name: apache_mod_evasive
-  namespace: ben_dataraven
+  namespace: dataraven
   author: Ben Albon
   description: install and configure apache mod_evasive
   company: Data Raven Ltd

@@ -39,7 +39,7 @@ Example Playbook
   
     roles:
       - geerlinguy.apache
-      - ben_dataraven.apache_mod_evasive
+      - dataraven.apache_mod_evasive
 ```
 
 License
